@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Josefin+Sans:wght@300;400&family=Lato:wght@300&family=Montserrat:wght@300;400&family=Roboto:wght@100&family=Source+Sans+Pro:wght@300&display=swap");
 
 * {
-  margin: auto;
+  /* margin: auto; */
   box-sizing: border-box;
 }
 
@@ -92,7 +92,7 @@ h5 {
   display: flex;
   justify-content: space-between;
   margin: 0;
-  gap: 150px;
+  gap: 130px;
 }
 .bodyElement {
   margin-top: 10px;
@@ -119,6 +119,7 @@ input {
 }
 #footer {
   display: flex;
+  justify-content: space-between;
 }
 
 .footerOptions {
@@ -127,4 +128,10 @@ input {
 }
 #recentlySearched {
   margin: 20px;
+}
+
+#footerItems {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
 }
