@@ -11,12 +11,12 @@ body {
 }
 .header {
   padding: 10px;
-  height: 12vh;
+  height: 15vh;
   justify-content: space-between;
   background-color: rgba(255, 153, 0, 0.323);
 }
 .header_element {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 #switchToApp {
@@ -88,7 +88,7 @@ h5 {
   display: flex;
   justify-content: space-between;
   margin: 0;
-  gap: 35vw;
+  gap: 180px;
 }
 .bodyElement {
   margin-top: 10px;
@@ -102,8 +102,8 @@ input {
 }
 
 #searchButton {
-  width: 90vw;
-  height: 30px;
+  width: 100vw;
+  height: 40px;
   background-color: rgb(247, 119, 40);
   border: none;
   color: white;
@@ -122,4 +122,5 @@ input {
   flex-direction: column;
 }
 #recentlySearched {
+  margin: 20px;
 }
