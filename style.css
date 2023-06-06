@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Josefin+Sans:wght@300;400&family=Lato:wght@300&family=Montserrat:wght@300;400&family=Roboto:wght@100&family=Source+Sans+Pro:wght@300&display=swap");
+
 * {
   margin: auto;
   box-sizing: border-box;
@@ -5,6 +7,7 @@
 
 body {
   width: 500px;
+  font-family: "Josefin Sans", sans-serif;
 }
 .header {
   padding: 10px;
@@ -42,6 +45,7 @@ body {
   color: grey;
   border-radius: 15px;
   margin-right: 10px;
+  border: 1px solid gray;
 }
 #userIcon {
   height: 20px;
@@ -69,5 +73,53 @@ body {
 .iconContainer {
   width: 150px;
   display: flex;
-  /* justify-content: space-between; */
+}
+hr {
+  margin-top: 5px;
+}
+h5 {
+  color: rgba(0, 0, 0, 0.642);
+}
+.bodyInput {
+  margin: 10px;
+  margin-bottom: 25px;
+}
+.dates {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  gap: 35vw;
+}
+.bodyElement {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+input {
+  height: 30px;
+  border: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+#searchButton {
+  width: 90vw;
+  height: 30px;
+  background-color: rgb(247, 119, 40);
+  border: none;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+#searchContainer {
+  display: flex;
+}
+#footer {
+  display: flex;
+}
+
+.footerOptions {
+  display: flex;
+  flex-direction: column;
+}
+#recentlySearched {
 }
