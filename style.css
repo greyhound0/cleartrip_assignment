@@ -183,3 +183,7 @@ input {
 #searchedPlace {
   margin-left: 10px;
 }
+
+#lastLine {
+  margin-bottom: 5px;
+}
