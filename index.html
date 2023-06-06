@@ -22,36 +22,98 @@
       <button id="loginButton">
         <img
           id="userIcon"
-          src="https://www.svgrepo.com/download/513868/user.svg"
+          src="https://www.svgrepo.com/download/506037/user-1.svg"
           alt="user"
         />
         Login
       </button>
     </div>
     <div class="bodyIcons">
-      <div class="iconContainer">
+      <div onclick="changeColor(this)" class="iconContainer">
         <img
           class="icon"
           src="https://www.svgrepo.com/download/488946/flight.svg"
           alt="flight"
         /><span class="bodyIconText">Flights </span>
-        <hr />
       </div>
-      <div class="iconContainer">
+      <div onclick="changeColor(this)" class="iconContainer">
         <img
           class="icon"
           src="https://www.svgrepo.com/download/487460/hotel.svg"
           alt="hotel"
         /><span class="bodyIconText">Hotels </span>
-        <hr />
       </div>
-      <div class="iconContainer">
+      <div onclick="changeColor(this)" class="iconContainer">
         <img
-          src="https://www.svgrepo.com/download/511568/bus-front-view-615.svg"
+          src="https://www.svgrepo.com/download/513182/bus.svg"
           class="icon"
           alt="bus"
         /><span class="bodyIconText">Bus</span>
-        <hr />
+      </div>
+    </div>
+    <hr />
+    <div class="bodyInput">
+      <h5 class="bodyElement">Search for city, area or hotel</h5>
+      <h3 class="bodyElement">Goa</h3>
+    </div>
+    <hr />
+    <div class="bodyInput">
+      <div class="dates">
+        <div id="checkIn">
+          <h5 class="bodyElement">Check-in</h5>
+          <input class="bodyElement" type="date" />
+        </div>
+        <div id="checkOut">
+          <h5 class="bodyElement">Check-out</h5>
+          <input class="bodyElement" type="date" />
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="bodyInput">
+      <h5 class="bodyElement">Travellers</h5>
+      <h3 class="bodyElement">1 room, 2 adults</h3>
+    </div>
+    <div id="searchContainer">
+      <button id="searchButton">Search Hotels</button>
+    </div>
+    <div id="recentlySearched">
+      <h3>Recently Searched</h3>
+      <h5>GOA, 2 ADULTS</h5>
+    </div>
+
+    <div id="footer">
+      <div class="footerOptions" id="home">
+        <img
+          class="icon"
+          src="https://www.svgrepo.com/download/504469/house.svg"
+          alt="home"
+        />
+        HOME
+      </div>
+      <div class="footerOptions" id="home">
+        <img
+          class="icon"
+          src="https://www.svgrepo.com/download/471116/briefcase-02.svg"
+          alt="trips"
+        />
+        MY TRIPS
+      </div>
+      <div class="footerOptions" id="home">
+        <img
+          class="icon"
+          src="https://www.svgrepo.com/download/506817/discount.svg"
+          alt="offers"
+        />
+        OFFERS
+      </div>
+      <div class="footerOptions" id="home">
+        <img
+          class="icon"
+          src="https://www.svgrepo.com/download/513868/user.svg"
+          alt="account"
+        />
+        ACCOUNT
       </div>
     </div>
     <script src="script.js"></script>
