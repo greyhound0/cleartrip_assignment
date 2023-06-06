@@ -155,7 +155,7 @@ input {
 .footerOptions {
   display: flex;
   flex-direction: column;
-  margin: 5px;
+  margin: 10px;
   cursor: pointer;
 }
 
@@ -177,7 +177,7 @@ input {
 #dateSearched {
   display: flex;
   width: 150px;
-  height: 70px;
+  height: 80px;
   margin-left: 10px;
   background-color: rgba(128, 128, 128, 0.153);
   color: rgb(19, 102, 174);
