@@ -83,9 +83,14 @@ body {
   width: 30px;
   object-fit: contain;
 }
+
+.icon:focus {
+  background-color: rgb(247, 119, 40);
+}
 .bodyIcons {
   display: flex;
   justify-content: space-around;
+  cursor: pointer;
 }
 .bodyIconText {
   font-size: 1.5rem;
@@ -99,7 +104,7 @@ hr {
   margin-top: 5px;
   color: rgba(0, 0, 0, 0.107);
 }
-h4 {
+h3 {
   color: rgba(128, 128, 128, 0.584);
 }
 .bodyInput {
@@ -149,6 +154,7 @@ input {
 .footerOptions {
   display: flex;
   flex-direction: column;
+  margin: 10px;
 }
 #recentlySearched {
   margin: 10px;
@@ -156,9 +162,6 @@ input {
   margin-bottom: 20px;
 }
 
-#footerItems {
-  gap: 100px;
-}
 #dateSearched {
   display: flex;
   width: 150px;
