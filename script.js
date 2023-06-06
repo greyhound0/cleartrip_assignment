@@ -1,6 +1,7 @@
 const iconContainer = document.querySelectorAll(".iconContainer");
 const icon = document.querySelectorAll(".icon");
 const button = document.getElementById("loginButton");
+
 button.addEventListener("click", function () {
   button.classList.add("clicked");
   setTimeout(function () {
