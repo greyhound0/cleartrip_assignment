@@ -103,8 +103,8 @@ hr {
   margin-top: 5px;
   color: rgba(0, 0, 0, 0.107);
 }
-h2 {
-  /* font-weight: lighter; */
+h1 {
+  font-weight: normal;
 }
 h3 {
   color: rgba(128, 128, 128, 0.584);
