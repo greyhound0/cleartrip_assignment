@@ -12,7 +12,7 @@ body {
 .header {
   padding-top: 20px;
   padding: 10px;
-  height: 20vh;
+  height: 18vh;
   justify-content: space-between;
   background-color: rgba(248, 155, 34, 0.477);
 }
@@ -47,11 +47,16 @@ body {
 }
 #loginButton {
   background-color: white;
+  display: flex;
+  padding: 5px;
   color: grey;
+  height: 30px;
+  width: 100px;
   border-radius: 15px;
   margin-right: 10px;
   border: 1px solid gray;
   transition: transform 0.3s ease;
+  cursor: pointer;
 }
 #loginButton.clicked {
   transform: scale(0.8);
@@ -92,6 +97,7 @@ h5 {
 .bodyInput {
   margin: 10px;
   margin-bottom: 25px;
+  margin-top: 20px;
 }
 .dates {
   display: flex;
@@ -137,7 +143,9 @@ input {
   flex-direction: column;
 }
 #recentlySearched {
-  margin: 20px;
+  margin: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #footerItems {
@@ -152,4 +160,7 @@ input {
   color: rgb(19, 102, 174);
   margin-bottom: 20px;
   margin: 10px;
+}
+#searchedPlace {
+  margin-left: 10px;
 }
