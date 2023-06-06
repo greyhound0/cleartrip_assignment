@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Josefin+Sans:wght@300;400&family=Lato:wght@300&family=Montserrat:wght@300;400&family=Roboto:wght@100&family=Source+Sans+Pro:wght@300&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Josefin+Sans:wght@300;400&family=Lato:wght@300&family=Montserrat:wght@300;400&family=Roboto:wght@100&family=Source+Sans+Pro:wght@300&display=swap"); */
 
 @font-face {
   font-family: segoe;
@@ -14,6 +14,7 @@
 body {
   width: 500px;
   font-family: segoe;
+  border: 1px solid rgb(247, 119, 40);
 }
 .header {
   padding-top: 20px;
@@ -46,8 +47,8 @@ body {
 }
 
 #cleartripIcon {
-  height: 30px;
-  width: 100px;
+  height: 40px;
+  width: 120px;
   object-fit: contain;
   margin-left: 10px;
 }
@@ -75,7 +76,6 @@ body {
   display: flex;
   justify-content: space-between;
   margin: 10px;
-  margin-top: 5px;
 }
 .icon {
   height: 30px;
@@ -89,7 +89,6 @@ body {
 .bodyIcons {
   display: flex;
   justify-content: space-around;
-  cursor: pointer;
 }
 .bodyIconText {
   font-size: 1.5rem;
