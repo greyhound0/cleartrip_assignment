@@ -100,12 +100,12 @@ hr {
   color: rgba(0, 0, 0, 0.107);
 }
 h4 {
-  color: rgba(0, 0, 0, 0.642);
+  color: rgba(128, 128, 128, 0.584);
 }
 .bodyInput {
   margin: 10px;
-  margin-bottom: 25px;
-  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-top: 15px;
 }
 .dates {
   display: flex;
