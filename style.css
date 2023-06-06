@@ -10,9 +10,10 @@ body {
   font-family: "Josefin Sans", sans-serif;
 }
 .header {
+  margin-top: 20px;
   padding: 10px;
   height: 20vh;
-  justify-content: space-evenly;
+  justify-content: space-between;
   background-color: rgba(248, 155, 34, 0.477);
 }
 .header_element {
@@ -106,7 +107,7 @@ input {
 }
 
 #searchButton {
-  width: 100vw;
+  width: 120vw;
   height: 50px;
   background-color: rgb(247, 119, 40);
   border: none;
