@@ -14,7 +14,7 @@ body {
   padding: 10px;
   height: 18vh;
   justify-content: space-between;
-  background-color: rgba(248, 155, 34, 0.477);
+  background-color: rgba(247, 119, 40, 0.436);
 }
 .header_element {
   margin-bottom: 10px;
@@ -155,7 +155,7 @@ input {
 #dateSearched {
   display: flex;
   width: 150px;
-  height: 80px;
+  height: 70px;
   margin-left: 10px;
   background-color: rgba(128, 128, 128, 0.153);
   color: rgb(19, 102, 174);
