@@ -8,14 +8,15 @@ body {
 }
 .header {
   padding: 10px;
-  /* display: flex; */
-  /* flex-direction: column; */
+  height: 16vh;
   justify-content: space-between;
-
   background-color: rgba(255, 153, 0, 0.323);
 }
+.header_element {
+  margin-bottom: 5px;
+}
 
-.switchToApp {
+#switchToApp {
   background-color: black;
   color: white;
   border-radius: 5px;
@@ -28,4 +29,27 @@ body {
 .switchToApp:hover {
   background-color: white;
   color: black;
+}
+
+#cleartripIcon {
+  height: 5vh;
+  width: 20vw;
+  object-fit: contain;
+  margin-left: 10px;
+}
+#loginButton {
+  background-color: white;
+  color: grey;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+#userIcon {
+  height: 10px;
+  width: 20px;
+  object-fit: contain;
+}
+.cleartripLogin {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
 }
